@@ -1,5 +1,5 @@
 # .dotfiles
-This is a dotfile management script designed to work with **bash** and **stow**.
+This is a personal dotfile management script designed to work with **bash** and **stow**. Note: very early version.
 
 ## Usage:
 - install with `git clone http://github.com/kmitab/.dotfiles` in your home directory,
