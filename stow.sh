@@ -7,7 +7,7 @@ if [ $? -ne 0 ]; then
 fi
 
 git fetch
-git git reset --hard origin/master
+git reset --hard origin/master
 
 for file in *; do
     if [ -d "$file" ]; then
