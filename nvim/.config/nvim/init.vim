@@ -5,3 +5,12 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set nowrap
+
+nnoremap <Up> <C-W>k
+nnoremap <Down> <C-W>j
+nnoremap <Left> <C-W>h
+nnoremap <Right> <C-W>l
+
+nnoremap <PageUp> :bn!<CR>
+nnoremap <PageDown> :bp!<CR>
+nnoremap <End> :bp\|bd #<CR>
