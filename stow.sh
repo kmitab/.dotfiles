@@ -6,8 +6,10 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-git fetch
-git reset --hard origin/master
+update_check=$(git log HEAD..origin/master --oneline)
+if [[ "${update_check}" != "" ]] ; then
+  git reset --hard origin/master
+fi
 
 for file in *; do
     if [ -d "$file" ]; then
