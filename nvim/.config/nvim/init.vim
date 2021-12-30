@@ -13,4 +13,4 @@ nnoremap <Right> <C-W>l
 
 nnoremap <PageUp> :bn!<CR>
 nnoremap <PageDown> :bp!<CR>
-nnoremap <End> :bp\|bd #<CR>
+nnoremap <C-End> :bp\|bd #<CR>
