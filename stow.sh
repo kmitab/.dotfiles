@@ -6,6 +6,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+git fetch origin
 update_check=$(git log HEAD..origin/master --oneline)
 if [[ "${update_check}" != "" ]] ; then
   git reset --hard origin/master
