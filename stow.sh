@@ -8,7 +8,7 @@ fi
 
 git fetch origin
 update_check=$(git log HEAD..origin/master --oneline)
-if [[ "${update_check}" != "" ]] ; then
+if [[ "${update_check}" != "" ]]; then
     git reset --hard origin/master
 fi
 
