@@ -5,6 +5,11 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set nowrap
+set incsearch
+set autoindent
+set wildmode=longest,list
+set cc=80
+syntax on
 
 nnoremap <Up> <C-W>k
 nnoremap <Down> <C-W>j
