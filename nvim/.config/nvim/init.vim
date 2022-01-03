@@ -26,7 +26,7 @@ syntax on
 
 " netrw
 map <Left> -
-nnoremap <Right> <Plug>NetrwReturn
+map <Right> <CR>
 
 " switching panes
 nnoremap <C-Up> <C-W>k
