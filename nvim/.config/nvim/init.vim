@@ -24,7 +24,7 @@ set autoindent
 set wildmode=longest,list
 syntax on
 
-" netrw
+" netrw navigation
 map <Left> -
 map <Right> <CR>
 
