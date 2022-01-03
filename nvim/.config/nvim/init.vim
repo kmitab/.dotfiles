@@ -24,13 +24,20 @@ set autoindent
 set wildmode=longest,list
 syntax on
 
-" arrows mapped to switching panes
-nnoremap <Up> <C-W>k
-nnoremap <Down> <C-W>j
-nnoremap <Left> <C-W>h
-nnoremap <Right> <C-W>l
+" netrw
+nnoremap <Left> -
+nnoremap <Right> <CR>
+
+" switching panes
+nnoremap <C-Up> <C-W>k
+nnoremap <C-Down> <C-W>j
+nnoremap <C-Left> <C-W>h
+nnoremap <C-Right> <C-W>l
 
 " buffer mappings
 nnoremap <PageUp> :bn!<CR>
 nnoremap <PageDown> :bp!<CR>
 nnoremap <C-End> :bp\|bd #<CR>
+
+" fat fingers
+cabbrev W w
