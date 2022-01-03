@@ -25,7 +25,7 @@ set wildmode=longest,list
 syntax on
 
 " netrw
-nnoremap <Left> -
+map <Left> -
 nnoremap <Right> <Plug>NetrwReturn
 
 " switching panes
