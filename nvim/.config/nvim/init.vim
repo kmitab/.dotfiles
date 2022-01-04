@@ -13,20 +13,23 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-" no wrap
+" do not wrap lines
 set nowrap
 
 " search
 set incsearch
 set autoindent
 
-" misc
+" completion, syntax
 set wildmode=longest,list
 syntax on
 
 " netrw navigation
 map <Left> -
 map <Right> <CR>
+
+" exit terminal mode
+:tnoremap <Esc> <C-\><C-n>
 
 " switching panes
 nnoremap <C-Up> <C-W>k
