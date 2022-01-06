@@ -1,7 +1,6 @@
 " plugin manager
 call plug#begin()
 Plug 'lifepillar/vim-solarized8'
-Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'kien/ctrlp.vim'
 Plug 'psf/black'
