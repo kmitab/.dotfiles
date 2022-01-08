@@ -1,10 +1,12 @@
-" plugin manager
+" plugins
+" psf/black - https://black.readthedocs.io/en/stable/integrations/editors.html#vim
 call plug#begin()
 Plug 'lifepillar/vim-solarized8'
-Plug 'vim-syntastic/syntastic'
-Plug 'kien/ctrlp.vim'
 Plug 'psf/black'
 call plug#end()
+
+" run black formatter on save
+autocmd BufWritePre *.py execute ':Black'
 
 " colors
 set termguicolors
