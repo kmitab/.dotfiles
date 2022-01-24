@@ -49,6 +49,7 @@ nnoremap <C-End> :bp\|bd #<CR>
 " fat fingers
 cabbrev W w
 
+" https://jeetblogs.org/post/vim-making-those-arrow-keys-work-for-you-or-why-the-anti-arrow-key-propoganda-is-wrong/
 " https://vim.fandom.com/wiki/Quickly_adding_and_deleting_empty_lines
 function! DelEmptyLineAbove()
     if line(".") == 1
