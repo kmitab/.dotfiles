@@ -22,7 +22,7 @@ set expandtab
 set nowrap
 
 " whitespace handling
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+au BufRead, BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " numbered rows
 set nu
